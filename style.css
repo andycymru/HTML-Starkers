@@ -1,34 +1,46 @@
-*{margin:0; padding: 0;}
+*{margin:0; padding: 0; box-sizing:border-box;}
 
-body{}
+body{  }
 
-h1{}
-h2{}
-h3{}
-h4{}
+h1{  }
+h2{  }
+h3{  }
+h4{  }
+h5{  }
+h6{  }
 
-p, p a{}
-ul, ul a{}
-li, a{list-style: none;}
-img, img a{}
+p, p a{  }
+span{  }
+img, img a{  }
+
+code{  }
+
+blockquote{  }
+blockquote:before{  }
+blockquote:after{  }
+
+ul{  }
+ul li, ul li a{ list-style: none; }
+
+ol{  }
+ol li, ol li a{ list-style: none; }
 
 a:link, a:visited {text-decoration:none;}
 a:hover, a:active {text-decoration:none;}
 
-.left{float: left;}
-.right{float: right;}
-.clear{clear: both;}
+header{ }
 
-header{}
+nav{  }
+nav ul{ margin: 4% auto; }
+nav ul li{ display:inline; }
 
-nav{}
-nav ul{margin: 4% auto;}
-nav ul li{text-transform: uppercase; float: left; margin: 0 2%;}
+main{  }
 
-main{}
+article{  }
+  content{ }
 
-section{}
+section{  }
 
-article{}
+aside{  }
 
-footer{}
+footer{  }
